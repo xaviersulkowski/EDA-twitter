@@ -10,28 +10,14 @@ Data set comes from [here](https://archive.ics.uci.edu/ml/datasets/Health+News+i
 ## Repo content
 ##### data directory 
 Contains raw data in txt .format and  tweets.pkl file which is nothing else than parsed files and saved in python pickle format.
-##### report directory 
-PDF file for recruiters as task solution. 
-##### scripts 
-CONFIG.py file with basic configuration, there for eg. you can add additional stopwords for text analysis, it also here, 
-too, download the necessary files for nltk lib. 
-
-parseTweets.py with function which parsing tweets and save to pickle file. 
-
-basicStats.py contains some functions to calculate simple statistic needed to report. 
-
-sentimentAnalysis.py contains one function to sentiment analysis ;) 
-
-trendTopics contains functions to plot wordclouds and topics popularity changes in time there is also function to create LDA/TFIDF model. 
-
-In main.py I run functions from trendTopics and sentimentAnalysis. 
-
-tools.py contains some needed functions.
-
-## Features plans 
-It's case which seems to be ideal for Jupyter Notebook project as step-by-step instruction how to handle problems 
-like this... and it will appears... for sure. 
-
+##### notebook 
+Jupyter notebook it's a great tool to connect report text form with 'real time' running code so I used it to prepare task solution. 
+Just look inside to check my way of thinking.   
+  
+  
+\
+\
+Repo also contains script version with generated pdf report on other branch. 
 
 ## Prepare environment
 Prepared on Linux Ubuntu 18.04LTS with Python3.6.7.
